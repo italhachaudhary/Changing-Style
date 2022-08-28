@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width,
+     initial-scale=1.0">
+    <title>Changing Style</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body
+        {
+            margin: 10px auto;
+            text-align: center;
+        }
+        button
+        {
+            background-color: blue;
+            color: white;
+            border: none;
+            padding: 3px 83px;
+            cursor: pointer;
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+        button:hover
+        {
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+        }
+        div
+        {
+            margin: auto;
+            background-color: rgb(0, 0, 0);
+            height: 300px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Select Values</h1>
+    <br>
+    <select name="select" id="background">
+        <option>Color</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+        <option value="yellow">Yellow</option>
+        <option value="red">Red</option>
+    </select>
+
+    <select name="select" id="width">
+        <option>Width</option>
+        <option value="50px">50px</option>
+        <option value="100px">100px</option>
+        <option value="150px">150px</option>
+        <option value="200px">200px</option>
+    </select>
+
+    <select name="select" id="height">
+        <option>Height</option>
+        <option value="50px">50px</option>
+        <option value="100px">100px</option>
+        <option value="200px">200px</option>
+        <option value="300px">300px</option>
+    </select>
+
+    <button id="button">Click</button>
+    
+    <div id="modify"></div>
+
+</body>
+<script src="custom.js"></script>
+</html>
